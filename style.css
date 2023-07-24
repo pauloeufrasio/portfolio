@@ -1,0 +1,82 @@
+body {
+  background-color: black;
+  color: white;
+}
+strong {
+  color: #22d4fd;
+}
+a {
+  display: inline-block;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 10px;
+}
+/* Estilize o botão do GitHub */
+.botao-github {
+  background-color: #333; /* Cor específica do GitHub */
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilize o contêiner que agrupa o conteúdo */
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+/* Estilize a imagem */
+.imagem-container img {
+  max-width: 30%;
+  margin-bottom: -20px; /* Adicionando espaço entre a imagem e os botões */
+}
+
+/* Estilize os botões */
+.botoes {
+  display: flex;
+}
+
+/* Estilo base para os botões */
+.botoes a {
+  display: inline-block;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+/* Estilize o botão do Instagram */
+.botao-instagram {
+  background-color: #e4405f;
+}
+
+/* Estilize o botão do GitHub */
+.botao-github {
+  background-color: #333;
+}
+body {
+  /* Define a imagem de fundo */
+  background-image: url("download3.jpg");
+
+  /* Define a cor de fundo caso a imagem não carregue ou não cubra toda a página */
+  background-color: #050505;
+
+  /* Define o tamanho da imagem de fundo */
+  background-size: cover;
+
+  /* Define a posição da imagem de fundo (opcional) */
+  background-position: center center;
+
+  /* Define se a imagem deve se repetir (opcional) */
+  background-repeat: no-repeat;
+}
